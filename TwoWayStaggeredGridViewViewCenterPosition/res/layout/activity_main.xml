@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     <RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="left"
+    android:orientation="vertical" >
+
+    <org.lucasr.twowayview.widget.TwoWayView
+        android:id="@+id/list"
+        style="@style/TwoWayView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:background="#000000"
+        android:visibility="visible"
+        app:twowayview_layoutManager="StaggeredGridLayoutManager"
+        app:twowayview_numColumns="2"
+        app:twowayview_numRows="2" />
+    
+  
+</RelativeLayout>
+</LinearLayout>
